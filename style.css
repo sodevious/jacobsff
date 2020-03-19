@@ -1260,7 +1260,7 @@ a.sm-links>i.fab:hover {
 	}
 
 	@media only screen and (max-width: 768px) {
-		.navbar { height: 65px; }
+		.navbar { height: 60px; }
 		.navbar.is-open { height: 150px; /* Change me if you add more menu items */}
 		.page-title {font-size: 90%; margin-top: 0;}
 		.contents-area2 {padding: 0;}
