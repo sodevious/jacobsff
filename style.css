@@ -786,7 +786,7 @@ a.phone-number:focus {
 }
 
 .sm-contact-pg {
-	padding-bottom: 0;
+	padding-bottom: 0 !important;
 }
 
 .contact-text > div {
@@ -970,6 +970,12 @@ div.space {
     	padding-top: 10px;
 }
 
+.sm-contact-pg p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .fab.fab-contact {
 	display: flex;
 	align-items: flex-end;
@@ -995,7 +1001,6 @@ a.sm-links {
 	color: #a9a9a9;
 	text-decoration: none;
 	cursor: pointer;
-	padding-right: 30px;
 }
 
 /*a.sm-links>i.fab.fab-contact:hover {
@@ -1027,9 +1032,9 @@ footer {
   display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
   flex-direction: row;
 	justify-content: center;
-	height: auto;
+	height: 60px; /* Footer needs to be same height as nav for true vertical centering */
 	width: 100%;
-	padding: 30px;
+	padding: 10px;
 	z-index: 10;
 	background-color: transparent;
 	transition: 0.5s;
@@ -1106,7 +1111,7 @@ footer#footer-content {
 	background-position: 60%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 75px;
+  height: 60px; /* Footer needs to be same height as nav for true vertical centering */
 	width: 100%;
 	position: fixed;
 	transition: 0.5s;
@@ -1194,11 +1199,6 @@ footer#footer-scripts {
 	padding-right: 10px!important;
 }
 
-a.sm-links {
-	text-decoration: none;
-	cursor: pointer;
-	padding-right: 30px;
-}
 
 a.sm-links>i.fab:hover {
 	color: #00A2FF!important;
@@ -1256,7 +1256,7 @@ a.sm-links>i.fab:hover {
 		.navbar__menu--item-landing {font-weight: 500; margin-left: 0; padding-left: 0;}
 		a.toggle-nav-landing {display: none;}
 		.work-area {padding: 40px;}
-		footer#content {justify-content: flex-end; height: auto;}
+		footer#content {justify-content: flex-end; }
 	}
 
 	@media only screen and (max-width: 768px) {
