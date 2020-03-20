@@ -309,8 +309,6 @@ a.toggle-nav, a.toggle-nav-landing {
 .overlay-text1 {
 	font-family: 'Encode Sans', sans-serif;
     	font-weight: 500;
-    	margin-top: -70px;
-    	margin-bottom: 70px;
 }
 
 .overlay-text1.home-j {
@@ -325,6 +323,7 @@ a.toggle-nav, a.toggle-nav-landing {
 	font-size: 30px;
 	letter-spacing: 0.01em;
 	color: #fff;
+  margin-bottom: 70px;
 }
 
 .overlay-text2 {
