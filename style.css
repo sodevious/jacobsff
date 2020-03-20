@@ -1306,7 +1306,7 @@ a.sm-links>i.fab:hover {
 		.our-work-text {border-bottom: 1px dotted #cecece;}
 		.work-title {font-size: 20px; font-weight: 500;}
 		.work-content {flex-direction: column;}
-		.work-text {text-align: justify; padding: 0 40px;}
+		.work-text {text-align: justify; padding: 0 40px; width: 100%;}
 		.work-img > img {display: block; margin: 0 auto; width: 100%; padding: 0 40px 25px;}
 	}
 
