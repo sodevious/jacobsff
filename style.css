@@ -478,6 +478,7 @@ ul > li > a:active,{
 	cursor: pointer;
 }
 
+.work-text a,
 .post-content a,
 .content-post2 p > a {
 	color: #000000;
